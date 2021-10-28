@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300&family=Source+Code+Pro:wght@200&display=swap");
+
+#NavbarWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  height: 100%;
+  width: 100%;
+}
+
+#NavbarIcon {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 40%;
+  background-color: #000000;
+  width: 100%;
+}
+
+#NavLetter {
+  width: 100%;
+  background-color: #000000;
+}
+
+#NavbarIcon h1 {
+  width: 100%;
+  justify-self: center;
+  color: #bc86f7;
+  font-family: "Lato", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 10rem;
+  background-color: #000000;
+  margin: 0;
+  text-shadow: 1rem 0px 0px #00fdd9;
+}
+
+#NavbarIcon p {
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 1rem;
+  padding: 0%;
+  margin: 0%;
+}
+
+#NavbarLinks {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+li {
+  list-style: none;
+  padding-left: none;
+  width: 100%;
+  height: 25%;
+  border: solid #909095 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  color: #909095;
+  text-align: center;
+  margin-top: 10%;
+}
+
+li p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+ul {
+  padding-left: 0;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  justify-content: center;
+}
+
+#SMIcons {
+  height: 100%;
+  justify-content: center;
+}
+
+CgComponents {
+  width: 40%;
+  height: 40%;
+}
